@@ -1,0 +1,45 @@
+/*colors*/
+
+$background-1: #65dfc9;
+$background-2: #6cdbeb;
+$glass-1: rgba(255, 255, 255, 0.7);
+$glass-2: rgba(255, 255, 255, 0.3);
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, $background-1, $background-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(to right bottom,
+      $glass-1,
+      $glass-2);
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom,
+      $glass-1,
+      $glass-2);
+  border-radius: 2rem;
+}
+
+.content {
+  flex: 2;
+}
