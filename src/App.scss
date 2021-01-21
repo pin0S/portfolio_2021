@@ -5,6 +5,18 @@ $background-2: #6cdbeb;
 $glass-1: rgba(255, 255, 255, 0.7);
 $glass-2: rgba(255, 255, 255, 0.3);
 
+nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  img {
+    width: 24px;
+    padding: 5px;
+  }
+}
+
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -17,7 +29,7 @@ main {
 .dashboard {
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
   background: linear-gradient(to right bottom,
       $glass-1,
       $glass-2);
@@ -42,4 +54,12 @@ main {
 
 .content {
   flex: 2;
+}
+
+.pb {
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0px 0px 10px 20px;
 }
