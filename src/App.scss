@@ -4,23 +4,37 @@ $background-1: #65dfc9;
 $background-2: #6cdbeb;
 $glass-1: rgba(255, 255, 255, 0.7);
 $glass-2: rgba(255, 255, 255, 0.3);
+$heading-1: #426696;
+
+h1 {
+  color: $heading-1;
+  font-weight: 600;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
 
 nav {
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
 
-  img {
-    width: 24px;
-    padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 2em;
+
+  a {
+    display: flex;
   }
+
 }
 
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, $background-1, $background-2);
+  // background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v502-adj-25-abstractbg_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1d8619e435dad3a774579101aaa770a7');
+  // background-size: cover;
+  // background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +53,15 @@ main {
   display: flex;
 }
 
+.line {
+  background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
 .sidebar {
   flex: 1;
   display: flex;
@@ -54,6 +77,8 @@ main {
 
 .content {
   flex: 2;
+  flex-basis: 50%;
+  margin: 1rem;
 }
 
 .pb {
