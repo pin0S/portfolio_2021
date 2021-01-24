@@ -32,9 +32,6 @@ const projects = [
 
 export default function Projects() {
     return (
-
-        
-
         <div>
             <h1 className="line">Projects</h1>
             <div className="projects-container">
@@ -48,9 +45,11 @@ export default function Projects() {
                             <img src={garachu} alt='Garchu landing page' />
                             <h3>Gratefulness Chrome Extension</h3>
                             <p>Deployed to Chrome webstore</p>
-                            <p>javascript</p>
-                            <p>html</p>
-                            <p>css</p>
+                            <ul className="categories">
+                                <li>javascript</li>
+                                <li>html</li>
+                                <li>css</li>
+                            </ul>
                         </div>
                     </div>
                 </Tilt>

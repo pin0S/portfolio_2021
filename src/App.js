@@ -2,8 +2,9 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import About from './components/About'
 import Blog from './components/Blog'
-import Projects from './components/Projects'
-import NavBar from './components/NavBar'
+import Projects from './components/Projects';
+import NavBar from './components/NavBar';
+import Sidebar from './components/Sidebar';
 
 
 import './App.scss';
@@ -13,23 +14,12 @@ function App() {
   return (
     <main>
       <section class="dashboard">
-      
-       
-          <div class="sidebar">
-          <div class="user">
-            <img src={"none"} alt={'test'}/>
-            <p>User name</p>
-          </div>
-          <div class="skills">
-            <ul>
-              <li>skill one</li>
-            </ul>
-          </div>
-        </div>
+          
+        <Sidebar />
         
         
         <Router>
-
+        
           <div class="content">
           <NavBar />
             <Switch>

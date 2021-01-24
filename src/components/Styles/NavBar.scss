@@ -1,0 +1,17 @@
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 0.5rem;
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: #426696;
+        font-weight: 600;
+    }
+
+}

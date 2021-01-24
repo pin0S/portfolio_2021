@@ -3,19 +3,24 @@
     z-index: 1;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 10px 10px;
+    padding: 20px;
+    margin: 0px 10px;
 
     overflow: scroll;
 }
 
 .projects-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
+    margin-top: 1rem;
     width: 250px;
     height: 400px;
     // box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.3);
+
     background: linear-gradient(to left top,
             rgba(255, 255, 255, 0.8),
             rgba(255, 255, 255, 0.5));
@@ -25,15 +30,9 @@
     border-radius: 2em;
     // border-top: 1px solid rgba(255, 255, 255, 0.9);
     border: 0.5px solid rgba(255, 255, 255, 0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
     -webkit-backdrop-filter: blur(10px);
-
-
-
-
 }
 
 .card-content {
