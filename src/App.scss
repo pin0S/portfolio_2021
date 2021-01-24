@@ -35,7 +35,7 @@ main {
 
 .dashboard {
   background: white;
-  min-height: 80vh;
+  height: 80vh;
   width: 95%;
   background: linear-gradient(to right bottom,
       $glass-1,
@@ -44,6 +44,7 @@ main {
   z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
+
 }
 
 // .line {
@@ -59,6 +60,7 @@ main {
   flex: 2;
   flex-basis: 40%;
   margin: 1rem;
+  overflow-y: scroll;
 }
 
 .pb {

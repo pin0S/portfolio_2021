@@ -35,7 +35,8 @@ export default function Projects() {
         <div>
             <h1 className="line">Projects</h1>
             <div className="projects-container">
-                <Tilt
+                
+            <Tilt
                     className="parallax-effect-glare-scale"
                     perspective={500}
                     scale={1.02}

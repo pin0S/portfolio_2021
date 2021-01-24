@@ -19,7 +19,7 @@ function App() {
         
         
         <Router>
-        
+
           <div class="content">
           <NavBar />
             <Switch>
