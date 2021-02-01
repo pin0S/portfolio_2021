@@ -8,7 +8,7 @@ export default function NavBar() {
             <div>
                 <nav>
                     <NavLink to='/projects'>Projects</NavLink>
-                    <NavLink to='/about'>About me</NavLink>
+                    <NavLink to='/about'>About</NavLink>
                     <NavLink to='/blog'>Blog</NavLink>
                 </nav>
             </div>

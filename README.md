@@ -10,9 +10,11 @@ This is a React based personal website, built by me to help me practice and impr
 
 ## Todo
 
-- [] Add about content
+- [X] Add about content
 - [] Add blog content
 - [] Create homepage view
 - [] Hamburger responsive menu/side bar
 - [] Modal easter egg
 - [] initial state screen (user boot)
+- [] Create project cards component
+  - [] style project cards

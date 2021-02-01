@@ -22,11 +22,24 @@ $heading-1: #426696;
         width: 150px;
     }
 
-    p {
+    h3 {
         color: $heading-1;
         font-weight: 600;
         font-size: 1.6rem;
         opacity: 0.8;
         margin: 0px;
+    }
+
+    p {
+        color: $heading-1;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.2rem;
+        opacity: 0.8;
+        margin: 4px;
+
+        span {
+            font-weight: 700;
+        }
     }
 }

@@ -38,15 +38,80 @@
     position: relative;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    transition: 0.5s;
+
 
     color: #426696;
 
-    img {
-        width: 250px;
-        border-radius: 2em 2em 0em 0em;
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+        }
+
+        .circle {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            background: linear-gradient(to right,
+                    rgba(169, 81, 206, 0.75),
+                    rgba(60, 104, 148, 0.75));
+            position: absolute;
+        }
     }
 
+    .info {
+        width: 100%;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+
+        ul {
+            margin: 0px;
+            padding: 4px;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        li {
+            list-style: none;
+            color: white;
+            padding: 5px;
+            margin: 0px 3px 3px 0px;
+            background: rgba(173, 8, 244, 0.5);
+            border-radius: 5px;
+        }
+    }
+
+    .more {
+        text-align: right;
+        margin: 10px;
+
+        button {
+            padding: 0.5rem 2rem;
+            background: none;
+            border: none;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
 }

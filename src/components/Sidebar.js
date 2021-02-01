@@ -9,7 +9,8 @@ class Sidebar extends Component {
         <div class="sidebar">
           <div class="user">
                 <img src={'/peter-avatar.png'} alt={'avatar of peter'}/>
-                <p>Hi I'm Peter</p>
+                <h3>Hi I'm Peter</h3>
+                <p>I'm a Developer, programed to deliver applications like this.</p>
           </div>
 
           
