@@ -4,7 +4,7 @@ import Tilt from 'react-parallax-tilt';
 export default function ProjectCard(props) {
     return (
         <Tilt
-            className="parallax-effect-glare-scale"
+            className="parallax-effect" 
             perspective={500}
             scale={1.2}
         >
